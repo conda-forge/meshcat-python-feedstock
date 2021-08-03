@@ -24,6 +24,7 @@ requirements:
   run:
     - ipython >=5
     - numpy >=1.14.0
+    - pillow >=7.0.0
     - pyngrok >=4.1.6
     - python >=3.6
     - pyzmq >=17.0.0

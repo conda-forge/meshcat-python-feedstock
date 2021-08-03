@@ -1,5 +1,5 @@
 {% set name = "meshcat-python" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/meshcat/meshcat-{{ version }}.tar.gz
-  sha256: 49fd920a43ffdef6712398cbccdec08e3460239bb9dc37af20fdbd50329ddf20
+  sha256: d0e8e655d8f11d50844b9224655275ef08c530651ecc8b1a1d27c53d0cfc683b
 
 build:
   number: 0

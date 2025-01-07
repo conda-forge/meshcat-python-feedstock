@@ -15,12 +15,13 @@ build:
   noarch: python
   entry_points:
     - meshcat-server=meshcat.servers.zmqserver:main
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - ipython >=5
     - numpy >=1.14.0
